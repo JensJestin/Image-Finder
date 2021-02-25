@@ -18,7 +18,7 @@ Webcam.snap(function(data_uri) {
 });
 }
 console.log('ml5 version', ml5.version);
-classifier = ml5.imageClassfier('https://storage.googleapis.com/tm-model/uZHR_Lb1P/model.json', modelLoaded);
+classifier = ml5.imageClassifier('https://storage.googleapis.com/tm-model/uZHR_Lb1P/model.json', modelLoaded);
 
 /*model*/
 function modelLoaded(){
